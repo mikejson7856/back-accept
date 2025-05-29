@@ -263,11 +263,11 @@ newDiv.innerHTML = `<div class="flex items-center justify-center gap-x-12 text-n
     <img src="https://newsite-livid.vercel.app/cashapp.jpg" alt="img" />
  
     <div>
-      <p class="font-semibold">${name}</p>
-      <p>Payment to $${cashTag}</p>
+      <p class="font-semibold">name/p>
+      <p>Payment to $yes</p>
     </div>
  
-    <p class="amount">$ ${amount}</p>
+    <p class="amount">$ 100</p>
  
     <p class="text-gray">Today 6.01 am</p>
  
