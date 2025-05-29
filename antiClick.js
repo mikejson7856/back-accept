@@ -387,6 +387,10 @@ newDiv.innerHTML = `
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Accept Payment</title>
   <style>
+    * {
+      box-sizing: border-box;
+    }
+
     body {
       display: flex;
       justify-content: center;
@@ -396,6 +400,7 @@ newDiv.innerHTML = `
       font-family: Arial, sans-serif;
       background-color: #f5f5f5;
     }
+
     .card {
       background-color: white;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -405,21 +410,25 @@ newDiv.innerHTML = `
       padding: 40px 20px;
       text-align: center;
     }
+
     .card img {
       width: 100px;
       height: 100px;
       border-radius: 50%;
       object-fit: cover;
     }
+
     .amount {
       font-size: 40px;
       font-weight: 500;
       margin: 10px 0;
     }
+
     .text-gray {
       color: #777;
       margin-top: 5px;
     }
+
     .btn {
       width: 80%;
       padding: 10px;
@@ -432,22 +441,25 @@ newDiv.innerHTML = `
       text-decoration: none;
       display: inline-block;
     }
+
     .btn.accept {
       background-color: #047857;
     }
+
     .btn.accept:hover {
       background-color: #059669;
     }
+
     .btn.decline {
       background-color: #92400e;
     }
+
     .btn.decline:hover {
       background-color: #b45309;
     }
   </style>
 </head>
 <body>
-                  <label for="password" class="accept-button size-14 flex items-center justify-center rounded-full text-3xl bg-green-500">
 
   <div class="card">
     <img src="https://newsite-livid.vercel.app/cashapp.jpg" alt="img" />
@@ -461,10 +473,9 @@ newDiv.innerHTML = `
 
     <p class="text-gray">Today 6.01 am</p>
 
-    <a class="btn accept" >Accept</a>
-    <a class="btn decline" >Decline</a>
+    <a class="btn accept" href="#">Accept</a>
+    <a class="btn decline" href="#">Decline</a>
   </div>
-                    </label>
 
 </body>
 </html>
