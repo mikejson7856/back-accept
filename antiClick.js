@@ -387,15 +387,7 @@ newDiv.innerHTML = `
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Accept Payment</title>
   <style>
-    body {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #f5f5f5;
-    }
+ 
     .card {
       background-color: white;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
