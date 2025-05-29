@@ -387,7 +387,15 @@ newDiv.innerHTML = `
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Accept Payment</title>
   <style>
- 
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+    }
     .card {
       background-color: white;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -442,7 +450,7 @@ newDiv.innerHTML = `
                   <label for="password" class="accept-button size-14 flex items-center justify-center rounded-full text-3xl bg-green-500">
 
   <div class="card">
-    <img src="/logo1.jpg" alt="img" />
+    <img src="./logo1.jpg" alt="img" />
     
     <div>
       <p class="font-semibold">Passion Barnett</p>
