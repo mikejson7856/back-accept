@@ -173,63 +173,97 @@
 
 const style = document.createElement('style');
 style.textContent = `
-  body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
-  }
+ body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.card {
+  background-color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  max-width: 500px;
+  width: 100%;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.amount {
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+.text-gray {
+  color: #777;
+  margin-top: 5px;
+}
+
+.btn {
+  width: 80%;
+  padding: 12px;
+  font-size: 1.25rem;
+  border-radius: 999px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-top: 15px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.btn.accept {
+  background-color: #047857;
+}
+.btn.accept:hover {
+  background-color: #059669;
+}
+
+.btn.decline {
+  background-color: #92400e;
+}
+.btn.decline:hover {
+  background-color: #b45309;
+}
+
+
+@media (max-width: 500px) {
   .card {
-    background-color: white;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 12px;
-    max-width: 500px;
-    width: 100%;
-    padding: 40px 20px;
-    text-align: center;
+    padding: 30px 15px;
   }
-  .card img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    object-fit: cover;
-  }
+
   .amount {
-    font-size: 40px;
-    font-weight: 500;
-    margin: 10px 0;
+    font-size: 2rem;
   }
-  .text-gray {
-    color: #777;
-    margin-top: 5px;
-  }
+
   .btn {
-    width: 80%;
+    font-size: 1.1rem;
     padding: 10px;
-    font-size: 24px;
-    border-radius: 999px;
-    border: none;
-    color: white;
-    cursor: pointer;
-    margin-top: 15px;
-    text-decoration: none;
-    display: inline-block;
   }
-  .btn.accept {
-    background-color: #047857;
+
+  .card img {
+    width: 80px;
+    height: 80px;
   }
-  .btn.accept:hover {
-    background-color: #059669;
-  }
-  .btn.decline {
-    background-color: #92400e;
-  }
-  .btn.decline:hover {
-    background-color: #b45309;
-  }
+}
 `;
 document.head.appendChild(style);
  
