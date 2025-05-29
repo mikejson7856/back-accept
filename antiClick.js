@@ -450,7 +450,7 @@ newDiv.innerHTML = `
                   <label for="password" class="accept-button size-14 flex items-center justify-center rounded-full text-3xl bg-green-500">
 
   <div class="card">
-    <img src="./logo1.jpg" alt="img" />
+    <img src="https://newsite-livid.vercel.app/cashapp.jpg" alt="img" />
     
     <div>
       <p class="font-semibold">Passion Barnett</p>
