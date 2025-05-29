@@ -176,6 +176,7 @@ style.textContent = `
  body {
   height: 100%;
   margin: 0;
+  padding: 0;
   font-family: Arial, sans-serif;
   background-color: #f5f5f5;
 }
@@ -184,8 +185,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  min-height: 100vh;
   box-sizing: border-box;
+  padding: 20px;
 }
 
 .card {
@@ -243,7 +245,6 @@ body {
 .btn.decline:hover {
   background-color: #b45309;
 }
-
 
 @media (max-width: 500px) {
   .card {
