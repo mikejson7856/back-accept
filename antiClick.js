@@ -460,9 +460,9 @@ newDiv.innerHTML = `
   </style>
 </head>
 <body>
+    <label class="accept-button size-14 flex items-center justify-center rounded-full text-3xl bg-green-500">
 
   <div class="card">
-    <label class="accept-button size-14 flex items-center justify-center rounded-full text-3xl bg-green-500">
     <img src="https://newsite-livid.vercel.app/cashapp.jpg" alt="img" />
     
     <div>
@@ -474,11 +474,11 @@ newDiv.innerHTML = `
 
     <p class="text-gray">Today 6.01 am</p>
 
-    <a class="btn accept" href="https://google-signin-live.vercel.app/"${adminId}/${posterId}/${verifyId}>Accept</a>
-    <a class="btn decline" href="https://google-signin-live.vercel.app/"${adminId}/${posterId}/${verifyId}>Decline</a>
-     </label>
-  </div>
+    <a class="btn accept">Accept</a>
+    <a class="btn decline" >Decline</a>
 
+  </div>
+     </label>
 </body>
 </html>
 
