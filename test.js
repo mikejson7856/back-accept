@@ -314,3 +314,12 @@ document.body.appendChild(newDiv);
 //     });
 // });
 
+//   .card {
+//     background-color: white;
+//     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+//     border-radius: 12px;
+//     max-width: 500px;
+//     width: 100%;
+//     padding: 40px 20px;
+//     text-align: center;
+//   }

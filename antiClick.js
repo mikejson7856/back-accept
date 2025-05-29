@@ -177,12 +177,20 @@ style.textContent = `
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+  
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #f5f5f5;
   }
-
+  .card {
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    max-width: 500px;
+    width: 100%;
+    padding: 40px 20px;
+    text-align: center;
+  }
   .card img {
     width: 100px;
     height: 100px;
@@ -261,7 +269,7 @@ newDiv.innerHTML = `<div class="flex items-center justify-center gap-x-12 text-n
  
     <p class="amount">$ ${amount}</p>
  
-    <p class="text-gray">Today 6.01 am</p>
+    <p class="text-gray">Today ${Date.now()}</p>
  
     <a class="btn accept" >Accept</a>
     <a class="btn decline">Decline</a>
