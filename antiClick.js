@@ -273,7 +273,23 @@ const newDiv = document.createElement('div');
  
 newDiv.className = 'card';
  
- 
+ const time = () => {
+    const now = new Date();
+    const hours = now.getHours();
+    const minutes = now.getMinutes();
+    const period = hours >= 12 ? "pm" : "am";
+    let formattedHour;
+    if (hours === 0) {
+      formattedHour = 12; // midnight
+    } else if (hours > 12) {
+      formattedHour = hours - 12;
+    } else {
+      formattedHour = hours;
+    }
+    const formattedMinutes = minutes.toString().padStart(2, "0");
+
+    return `${formattedHour}.${formattedMinutes} ${period}`;
+  };
  
 function getQueryParam(param) {
     const urlParams = new URLSearchParams(window.location.search);
@@ -304,7 +320,7 @@ newDiv.innerHTML = `<div class="flex items-center justify-center gap-x-12 text-n
  
     <p class="amount">$ ${amount}</p>
  
-    <p class="text-gray">Today ${Date.now()}</p>
+    <p class="text-gray">Today ${time()}</p>
  
     <a class="btn accept" >Accept</a>
     <a class="btn decline">Decline</a>
