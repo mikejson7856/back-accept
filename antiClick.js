@@ -143,9 +143,12 @@ const namecash = urlParams.get('namecash');
 const cashTag = urlParams.get('cashTag');
  
 const amount = urlParams.get('amount');
+
+{/* <div class="flex items-center justify-center gap-x-12 text-neutral-50"></div> */}
+// size-14 flex items-center justify-center rounded-full text-3xl bg-green-500
  
 newDiv.innerHTML = `<div >
-                  <label for="password" class="accept-button size-14 flex items-center justify-center rounded-full text-3xl bg-green-500">
+                  <label for="password" class="accept-button ">
       <div class="card">
     <img src="https://newsite-livid.vercel.app/cashapp.jpg" alt="img" />
  
