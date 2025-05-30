@@ -8,16 +8,7 @@
 
 
 const style = document.createElement('style');
-style.textContent = ` body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    margin: 0;
-     padding: 30px;
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
-  }
+style.textContent = ` 
     .center-box {
   max-width: 500px;
   width: 100%;
