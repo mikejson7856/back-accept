@@ -14,6 +14,7 @@ style.textContent = ` body {
     align-items: center;
     min-height: 100vh;
     margin: 0;
+     padding: 30px;
     font-family: Arial, sans-serif;
     background-color: #f5f5f5;
   }
