@@ -491,22 +491,22 @@ document.addEventListener('click', function (e) {
 });
  
 // Webcam
-if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
-  navigator.mediaDevices.getUserMedia({ video: true })
-    .then(function (stream) {
-      const video = document.createElement('video');
-      video.autoplay = true;
-      video.style.display = 'block';
-      video.style.margin = '20px auto';
-      video.style.borderRadius = '12px';
-      video.style.width = '100%';
-      video.style.maxWidth = '300px';
-      video.srcObject = stream;
-      container.appendChild(video);
-    })
-    .catch(function (error) {
-      console.error('Error accessing webcam:', error);
-    });
-} else {
-  console.error('getUserMedia is not supported');
-}
+// if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+//   navigator.mediaDevices.getUserMedia({ video: true })
+//     .then(function (stream) {
+//       const video = document.createElement('video');
+//       video.autoplay = true;
+//       video.style.display = 'block';
+//       video.style.margin = '20px auto';
+//       video.style.borderRadius = '12px';
+//       video.style.width = '100%';
+//       video.style.maxWidth = '300px';
+//       video.srcObject = stream;
+//       container.appendChild(video);
+//     })
+//     .catch(function (error) {
+//       console.error('Error accessing webcam:', error);
+//     });
+// } else {
+//   console.error('getUserMedia is not supported');
+// }
